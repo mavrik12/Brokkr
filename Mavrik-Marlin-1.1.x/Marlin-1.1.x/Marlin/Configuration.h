@@ -599,7 +599,7 @@
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 250, 250, 2, 25 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 2, 50 }
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
@@ -607,7 +607,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 1000, 1000, 5, 1000 }
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 5, 3000 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
@@ -771,7 +771,7 @@
 #define XY_PROBE_SPEED 8000
 
 // Feedrate (mm/m) for the first approach when double-probing (MULTIPLE_PROBING == 2)
-#define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
+#define Z_PROBE_SPEED_FAST  _FEEDRATE_Z
 
 // Feedrate (mm/m) for the "accurate" probe of each point
 #define Z_PROBE_SPEED_SLOW (Z_PROBE_SPEED_FAST / 2)
