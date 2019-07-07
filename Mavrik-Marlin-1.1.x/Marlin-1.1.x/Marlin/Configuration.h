@@ -597,8 +597,9 @@
  * Default Axis Steps Per Unit (steps/mm)
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
+ *                                      800 for Acme Screw, 145 for the Bontec Gears in the extruder.
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.19, 80.19, 4000, 90 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.19, 80.19, 800, 145 }
 
 /**
  * Default Max Feed Rate (mm/s)
