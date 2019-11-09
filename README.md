@@ -6,6 +6,9 @@ Brokkr is my custom 3D printer. It started life as a Makerfarm Peg 12. But all t
 * E3D V6
 * Prusa Style Extruder
 * Meanwel 300W power supply
+* BLTouch bed leveling
+* TMC 2130
+* Sensorless homing
 
 ### notes:
 Lib_1.png & Lib_2.png are all isntalled Library for the firmware. Theses are for trouble shooting.
